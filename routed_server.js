@@ -53,6 +53,8 @@ app.get("/api/waitlist", function (req, res) {
 app.post("/submit-form", function (req, res) {
     // res.send("Sends raw JSON for the waitlist API call!")
     console.log("Submit form button pressed!");
+    console.log(req.body);
+
     res.redirect("/");
 });
 
