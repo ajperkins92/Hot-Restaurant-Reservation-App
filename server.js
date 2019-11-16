@@ -1,4 +1,5 @@
 var http = require("http");
+var fs = require("fs");
 var PORT = 3000;
 
 // Create a generic function to handle requests and responses
