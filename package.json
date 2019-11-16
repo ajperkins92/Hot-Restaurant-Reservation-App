@@ -2,10 +2,10 @@
   "name": "hot-restaurant-reservation-app",
   "version": "1.0.0",
   "description": "This is a an application that handles restaurant table reservation requests",
-  "main": "server.js",
+  "main": "routed_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node routed_server.js"
   },
   "repository": {
     "type": "git",
