@@ -1,8 +1,8 @@
 // Dependencies
 // =============================================================
-var express = require("express");
-var path = require("path");
-var fs = require("fs");
+var express = require('express');
+var path = require('path');
+var fs = require('fs');
 
 // Sets up the Express App
 // =============================================================
@@ -13,9 +13,8 @@ var PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
 // Starts the server to begin listening
 // =============================================================
-app.listen(PORT, function () {
-    console.log("App listening on PORT " + PORT);
+app.listen(PORT, function() {
+  console.log('App listening on PORT ' + PORT);
 });
