@@ -22,6 +22,13 @@
       <a href="add.html"><button class="btn btn-danger btn-lg"><span class="fa fa-calendar"></span> Make a Reservation</button></a>
       <a href="initial.html"><button class="btn btn-light btn-lg"><span class="fa fa-home"></span></button></a>
     </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            
+        </div>
+    </div>
+
     <footer>
         <div class="container">
             <p>footer</p>
@@ -30,6 +37,14 @@
   </div>
 
   <script type="text/javascript">
+    var queryURL="";
+
+    $.ajax({
+        url:queryURL,
+        method:"GET"
+    }).then(function(response){
+        console.log(response);
+    })
 
   </script>
 
