@@ -6,13 +6,13 @@ CREATE TABLE res_list
 (
   id int
   AUTO_INCREMENT,
-  name VARCHAR
+  customerName VARCHAR
   (255),
-  phone VARCHAR
+  phoneNumber VARCHAR
   (255),
-  email VARCHAR
+  customerEmail VARCHAR
   (255),
-  uniqueID VARCHAR
+  customerID VARCHAR
   (255) UNIQUE,
   PRIMARY KEY
   (id)
