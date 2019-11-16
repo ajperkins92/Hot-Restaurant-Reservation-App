@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Reservation Page</title>
@@ -12,6 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </head>
+
 <body>
 
   <div class="container">
@@ -32,7 +33,7 @@
             <h3>Table Reservation</h3>
           </div>
           <div class="card-body">
-            <form method="POST" role="form">
+            <form method="POST" action="/submit-form">
 
               <div class="form-group">
                 <label for="name"><strong>Name</strong></label>
@@ -53,12 +54,15 @@
                 <label for="unique-id"><strong>Unique ID</strong></label>
                 <input type="text" class="form-control" id="unique-id">
               </div>
+              <br>
+              <div class="text-right">
+                <input type="submit" class="btn btn-primary btn-md" id="add-btn"></input>
+              </div>
 
             </form>
+            
             <br>
-            <div class="text-right">
-              <button type="submit" class="btn btn-primary btn-md" id="add-btn"> Submit</button>
-            </div>
+          
           </div>
         </div>
 
@@ -76,4 +80,5 @@
   </script>
 
 </body>
+
 </html>
