@@ -21,4 +21,4 @@ git pull origin master
 ### MySQL:
 
 - Copy and paste [Reservation Schema](./list.sql) into your mySql workbench. Run
-  the file and the database should exist
+  those commands and the database should exist
