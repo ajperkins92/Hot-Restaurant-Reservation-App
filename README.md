@@ -22,3 +22,10 @@ git pull origin master
 
 - Copy and paste [Reservation Schema](./list.sql) into your mySql workbench. Run
   those commands and the database should exist
+
+- Add a .env file with
+
+```
+host=localhost
+password={Your password here}
+```
